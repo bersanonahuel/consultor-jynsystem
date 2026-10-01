@@ -1,0 +1,40 @@
+{
+  "stock": [
+    {
+      "code": "8313.000AM.1",
+      "name": "Triangulo soft y vedetina linea 12",
+      "brand": "PROMESSE MALLAS",
+      "price": 36300
+    },
+    {
+      "code": "PR50156.000AC.1",
+      "name": "Triangulo con alm y vedetina Flamingo",
+      "brand": "PROMESSE MALLAS",
+      "price": 36300
+    },
+    {
+      "code": "PR50226.008GR.1",
+      "name": "Triangulo con alm y cola less",
+      "brand": "PROMESSE MALLAS",
+      "price": 72300
+    },
+    {
+      "code": "PR50162.000CE.2",
+      "name": "Top cruzado y culotte less animal print",
+      "brand": "PROMESSE MALLAS",
+      "price": 57300
+    },
+    {
+      "code": "4661",
+      "name": "Triangulo soft y cola less regulable",
+      "brand": "DIN DAN",
+      "price": 37900
+    },
+    {
+      "code": "10011105",
+      "name": "La ceremonia del té x6 jabones vegetales",
+      "brand": "LA PASIONARIA",
+      "price": 31500
+    }
+  ]
+}

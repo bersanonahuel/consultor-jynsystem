@@ -1,0 +1,141 @@
+:root {
+    --bg-color: #f4f6f9;
+    --text-color: #1a1a2e;
+    --primary-color: #000000;
+    --accent-color: #28a745; /* Verde para destacar escaneo exitoso */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 13px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+#scanner-container {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+#reader {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+}
+
+.instruction {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+}
+
+#result {
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#product-name {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-height: 44px;
+}
+
+.price-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.currency {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: var(--accent-color);
+}
+
+#product-price {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+#rescan-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#rescan-btn:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consultor de Precios | JYNSYSTEM</title>
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Librería gratuita y robusta para leer códigos de barras -->
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1>JYNSYSTEM</h1>
+        <p>Consultor de Precios</p>
+    </header>
+
+    <main>
+        <!-- Vista de la cámara -->
+        <div id="scanner-container">
+            <div id="reader"></div>
+            <p class="instruction">Apunta la cámara al código de barras del producto</p>
+        </div>
+
+        <!-- Vista del resultado -->
+        <div id="result" style="display: none;">
+            <h2 id="product-name">Buscando...</h2>
+            <div class="price-container">
+                <span class="currency">$</span>
+                <span id="product-price">0.00</span>
+            </div>
+            <button id="rescan-btn">Escanear otro producto</button>
+        </div>
+    </main>
+
+    <script src="/app.js"></script>
+</body>
+</html>
